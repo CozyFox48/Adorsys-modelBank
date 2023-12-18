@@ -255,8 +255,8 @@ app.post('/api/loginBank', async function (req, res) {
     });
 
   headers = {
-    'Login': "kentarosuzuki",
-    'Pin': 'DragonWarrior4*0p;/)P:?'
+    'Login': "12345",
+    'Pin': '12345'
   };
 
   await axios.post('https://support6x-modelbank-tpp-ui.adorsys.kaas.cloudpunks.dev/tpp/login', {}, { headers })
